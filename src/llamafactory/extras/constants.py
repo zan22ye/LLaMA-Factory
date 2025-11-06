@@ -3190,6 +3190,16 @@ register_model_group(
     multimodal=True,
 )
 
+register_model_group(
+    models={
+        "minerU-2.5-1.2B":{
+            DownloadSource.DEFAULT: "OpenDataLab/MinerU2.5-2509-1.2B",
+            DownloadSource.MODELSCOPE: "OpenDataLab/MinerU2.5-2509-1.2B",   
+        },
+    },
+    template="qwen2_vl",
+    multimodal=True,
+)
 
 register_model_group(
     models={

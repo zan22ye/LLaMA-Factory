@@ -38,6 +38,15 @@
       "assistant_tag": "assistant"
     }
   },
+  "Text_recognition_dataset": {
+    "file_name": "Text_recognition_dataset.json",
+    "columns": {
+      "prompt": "system",
+      "query": "instruction",
+      "response": "output",
+      "images": "images"
+    }
+  },
   "mllm_audio_demo": {
     "file_name": "mllm_audio_demo.json",
     "formatting": "sharegpt",
